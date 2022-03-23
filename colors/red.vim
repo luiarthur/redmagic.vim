@@ -1,7 +1,12 @@
-" RED MAGIC
+"  ____          _       _
+" |  _ \ ___  __| |_   _(_)_ __ ___
+" | |_) / _ \/ _` \ \ / / | '_ ` _ \
+" |  _ <  __/ (_| |\ V /| | | | | | |
+" |_| \_\___|\__,_(_)_/ |_|_| |_| |_|
+
 " original blaque magick by xero harrison (http://blaquemagick.xero.nu)
 " https://github.com/xero/blaquemagick.vim
-" red magic version by Arthur Lui
+" Red.vim by Arthur Lui
 
 " in vim, see more options by:
 " :h hl-SpellBad
@@ -17,7 +22,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name="redmagic"
+let g:colors_name="red"
 
 
 " execute hilight
