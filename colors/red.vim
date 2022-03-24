@@ -3,17 +3,15 @@
 " | |_) / _ \/ _` \ \ / / | '_ ` _ \
 " |  _ <  __/ (_| |\ V /| | | | | | |
 " |_| \_\___|\__,_(_)_/ |_|_| |_| |_|
-
-" original blaque magick by xero harrison (http://blaquemagick.xero.nu)
-" https://github.com/xero/blaquemagick.vim
+"
 " Red.vim by Arthur Lui
-
-" in vim, see more options by:
-" :h hl-SpellBad
-
-" For colors, see: https://jonasjacek.github.io/colors/
-
 " Note: A black terminal background is most compatible.
+"
+" Get help on each option in vim by (e.g. help on SpellBad):
+" :h hl-SpellBad
+"
+" Based on blaque magick by xero harrison (https://github.com/xero/blaquemagick.vim)
+" Color cheat sheet: https://jonasjacek.github.io/colors/
 
 set background=dark
 hi clear
