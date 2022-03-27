@@ -50,7 +50,7 @@ hi! link Conditional     Group1
 hi! link Float           Group1
 hi! link Folded          Group1
 hi! link Number          Group1
-hi! link String       	 Group1
+hi! link String          Group1
 hi! link Tag             Group1
 hi! link WarningMsg      Group1
 
@@ -62,33 +62,33 @@ hi! link NonText         Group2
 hi! link StatusLineNC    Group2
 
 hi! link Function        Group3
-hi! link SpecialComment	 Group3
+hi! link SpecialComment  Group3
 
 hi! link Boolean         Group4
-hi! link Debug	         Group4
+hi! link Debug           Group4
 hi! link Delimiter       Group4
 hi! link Exception       Group4
 hi! link FoldColumn      Group4
 hi! link Identifier      Group4
-hi! link Macro	         Group4
+hi! link Macro           Group4
 hi! link ModeMsg         Group4
 hi! link MoreMsg         Group4
 hi! link Question        Group4
-hi! link Title	         Group4
+hi! link Title           Group4
 hi! link VertSplit       Group4
 
-hi! link Define	         Group5
+hi! link Define          Group5
 hi! link DiffAdd         Group5
 hi! link Directory       Group5
 hi! link diffAdded       Group5
 hi! link diffCommon      Group5
 hi! link Include         Group5
 hi! link Keyword         Group5
-hi! link Label	         Group5
+hi! link Label           Group5
 hi! link Operator        Group5
 hi! link PreCondit       Group5
 hi! link PreProc         Group5
-hi! link Repeat	         Group5
+hi! link Repeat          Group5
 hi! link Special         Group5
 hi! link SpecialChar     Group5
 hi! link Statement       Group5
@@ -103,14 +103,14 @@ hi! link ErrorMsg        Group6
 hi! link SpellCap        Group6
 hi! link SpellLocal      Group6
 
-hi! link Cursor	         Group7
-hi! link CursorColumn  	 Group7
+hi! link Cursor          Group7
+hi! link CursorColumn    Group7
 hi! link MatchParen      Group7
 
 hi! link ColorColumn     Group8
 hi! link PmenuSbar       Group8
 hi! link PmenuSel        Group8
-hi! link Visual	         Group8
+hi! link Visual          Group8
 hi! link VisualNOS       Group8
 
 hi! link SpecialKey      Group9
