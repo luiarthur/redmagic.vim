@@ -7,7 +7,6 @@
 " Get help on each option in vim by (e.g. help on SpellBad):
 " :h hl-SpellBad
 "
-" Color cheat sheet: https://jonasjacek.github.io/colors/
 
 set background=dark
 hi clear
@@ -18,10 +17,24 @@ endif
 
 let g:colors_name="noir"
 
-" Define special colors.
-hi Normal     ctermfg=250 ctermbg=16
-hi SpellRare  ctermfg=124 ctermbg=16
-hi Constant   ctermfg=252 ctermbg=16
+" Color Reference: https://jonasjacek.github.io/colors/
+" 0:   #000000
+" 88:  #870000
+" 124: #af0000
+" 160: #d70000
+" 196: #ff0000
+" 232: #080808
+" 236: #303030
+" 240: #585858
+" 245: #8a8a8a
+" 250: #bcbcbc
+" 252: #d0d0d0
+" 255: #eeeeee
+
+" Define Special Colors:
+hi Normal     ctermfg=250 ctermbg=0
+hi SpellRare  ctermfg=124
+hi Constant   ctermfg=252
 hi SpellBad   ctermfg=250 ctermbg=88
 hi Error      ctermfg=255 ctermbg=88
 hi DiffText   ctermfg=250 ctermbg=196
@@ -30,26 +43,28 @@ hi PmenuThumb ctermfg=232 ctermbg=240
 hi Pmenu      ctermfg=255 ctermbg=240
 hi IncSearch  ctermfg=255 ctermbg=245
 hi WildMenu   ctermfg=240 ctermbg=255
-hi Underlined ctermfg=250 ctermbg=16  term=underline cterm=underline 
+hi Underlined ctermfg=250 term=underline cterm=underline 
 
-" Color groups
-hi Group1     ctermfg=196 ctermbg=16
-hi Group2     ctermfg=240 ctermbg=16
-hi Group3     ctermfg=245 ctermbg=16
-hi Group4     ctermfg=250 ctermbg=16
-hi Group5     ctermfg=255 ctermbg=16
+" Color Groups:
+hi Group1     ctermfg=196
+hi Group2     ctermfg=240
+hi Group3     ctermfg=245
+hi Group4     ctermfg=250
+hi Group5     ctermfg=255
 hi Group6     ctermfg=255 ctermbg=124
 hi Group7     ctermfg=16  ctermbg=245
 hi Group8     ctermfg=16  ctermbg=250
 hi Group9     ctermfg=16  ctermbg=255
 hi Group10    ctermfg=160 ctermbg=255
 
-" Links.
+" Highlight:
 hi! link Character       Group1
 hi! link Conditional     Group1
 hi! link Float           Group1
 hi! link Folded          Group1
+hi! link Keyword         Group1
 hi! link Number          Group1
+hi! link Statement       Group1
 hi! link String          Group1
 hi! link Tag             Group1
 hi! link WarningMsg      Group1
@@ -83,7 +98,6 @@ hi! link Directory       Group5
 hi! link diffAdded       Group5
 hi! link diffCommon      Group5
 hi! link Include         Group5
-hi! link Keyword         Group5
 hi! link Label           Group5
 hi! link Operator        Group5
 hi! link PreCondit       Group5
@@ -91,7 +105,6 @@ hi! link PreProc         Group5
 hi! link Repeat          Group5
 hi! link Special         Group5
 hi! link SpecialChar     Group5
-hi! link Statement       Group5
 hi! link StatusLine      Group5
 hi! link StorageClass    Group5
 hi! link Structure       Group5
