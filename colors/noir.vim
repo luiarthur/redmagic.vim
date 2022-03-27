@@ -49,6 +49,7 @@ hi! link Conditional     Group1
 hi! link Float           Group1
 hi! link Folded          Group1
 hi! link Number          Group1
+hi! link String       	 Group1
 hi! link Tag             Group1
 hi! link WarningMsg      Group1
 
@@ -59,8 +60,8 @@ hi! link LineNr          Group2
 hi! link NonText         Group2
 hi! link StatusLineNC    Group2
 
+hi! link Function	       Group3
 hi! link SpecialComment	 Group3
-hi! link String       	 Group3
 
 hi! link Boolean	       Group4
 hi! link Debug	         Group4
@@ -80,7 +81,6 @@ hi! link DiffAdd	       Group5
 hi! link Directory	     Group5
 hi! link diffAdded	     Group5
 hi! link diffCommon	     Group5
-hi! link Function	       Group5
 hi! link Include	       Group5
 hi! link Keyword	       Group5
 hi! link Label	         Group5
