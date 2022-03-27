@@ -30,6 +30,7 @@ hi PmenuThumb	ctermfg=232	ctermbg=240
 hi Pmenu	    ctermfg=255	ctermbg=240
 hi IncSearch  ctermfg=255	ctermbg=245
 hi WildMenu   ctermfg=240	ctermbg=255
+hi Underlined ctermfg=250 ctermbg=16  term=underline cterm=underline 
 
 " Color groups
 hi Group1     ctermfg=196 ctermbg=16
