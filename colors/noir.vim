@@ -18,7 +18,7 @@ endif
 let g:colors_name="noir"
 
 " Color Reference: https://jonasjacek.github.io/colors/
-" 0:   #000000
+" 16:  #000000
 " 88:  #870000
 " 124: #af0000
 " 160: #d70000
@@ -32,7 +32,7 @@ let g:colors_name="noir"
 " 255: #eeeeee
 
 " Define Special Colors:
-hi Normal     ctermfg=250 ctermbg=0
+hi Normal     ctermfg=250 ctermbg=16
 hi SpellRare  ctermfg=124
 hi Constant   ctermfg=252
 hi SpellBad   ctermfg=250 ctermbg=88
