@@ -75,6 +75,7 @@ hi! link StatusLineNC    Group2
 
 hi! link Function        Group3
 hi! link SpecialComment  Group3
+hi! link Title           Group3
 
 hi! link Boolean         Group4
 hi! link Debug           Group4
@@ -86,7 +87,6 @@ hi! link Macro           Group4
 hi! link ModeMsg         Group4
 hi! link MoreMsg         Group4
 hi! link Question        Group4
-hi! link Title           Group4
 hi! link VertSplit       Group4
 
 hi! link Define          Group5
