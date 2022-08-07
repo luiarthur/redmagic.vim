@@ -72,6 +72,7 @@ hi! link diffRemoved     Group2
 hi! link LineNr          Group2
 hi! link NonText         Group2
 hi! link StatusLineNC    Group2
+hi! link TabLine         Group2
 
 hi! link Function        Group3
 hi! link SpecialComment  Group3
