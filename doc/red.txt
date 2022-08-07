@@ -1,0 +1,12 @@
+*red*  Some predominantly red color schemes.
+
+Two color schemes are provided: `red` and `noir`.
+
+To try out a color scheme, execute: `:colorscheme <name-of-colorscheme>`, in a
+VIM/NeoVIM session. For exapmle, `:colorscheme noir`.
+
+To set the color scheme at startup, add the following to `~/.vim/vimrc` (VIM)
+or `~/.config/nvim/init.vim` (NeoVIM):
+`silent! colorscheme noir`
+
+These colorschemes are ideal with a black background.
