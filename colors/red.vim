@@ -137,7 +137,7 @@ hi! link TabLineFill     StatusLineNC
 hi! link VimHiGroup      VimGroup
 
 " For vim-gitgutter, don't use background colors.
-highlight SignColumn guibg=None ctermbg=None
+highlight SignColumn guibg=NONE ctermbg=NONE
 
 " For Lsp diagnostic colors.
 " hi! link LspReferenceText DraculaSelection
@@ -153,4 +153,4 @@ hi! link LspDiagnosticsDefaultWarning WarningMsg
 " hi! link LspDiagnosticsUnderlineWarning DraculaWarnLine
 
 " Vim command prompt.
-hi! MsgArea guibg=None ctermfg=176
+hi! MsgArea guibg=NONE ctermfg=176
