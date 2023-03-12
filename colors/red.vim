@@ -28,7 +28,7 @@ function! ExecHi(...) " att, ctermfg, ctermbg, term, cterm
   let numArgs = a:0
   let att = a:1
   let fg = "NONE"
-  let bg = "0"
+  let bg = "16"
   let mterm = "NONE"
   let mcterm = "NONE"
 
@@ -66,7 +66,7 @@ let Red3          = 160 "brown
 let DarkRed       = 88 "52
 let LineNr        = 8
 let Green         = 2 "46
-let Black         = 0
+let Black         = 16
 let White         = 194
 let LightBlue     = 75
 let NONE          = "NONE"
@@ -91,7 +91,7 @@ call ExecHi("Folded",DarkGrey,Black)
 "call ExecHi("Function",Red3,NONE)
 call ExecHi("Function",DarkOrange3,Black)
 call ExecHi("Identifier",Red3,Black)
-call ExecHi("IncSearch",DarkRed,DarkOrange3,Black,bold)
+call ExecHi("IncSearch",DarkRed,DarkOrange3,NONE,bold)
 call ExecHi("NonText",DarkGrey,Black)
 call ExecHi("Normal",LightGrey,Black)
 call ExecHi("Number",Red1,Black)
@@ -123,7 +123,7 @@ call ExecHi("PmenuThumb",Black,Green)
 call ExecHi("SpellBad",White,Red3,NONE,bold)
 call ExecHi("SpellCap",DarkRed,LightBlue,NONE,bold)
 
-hi Underlined term=underline cterm=underline ctermfg=NONE ctermbg=Black
+hi Underlined term=underline cterm=underline ctermfg=NONE ctermbg=16
 
 hi! link diffAdded       DiffAdd
 hi! link diffRemoved     DiffDelete
@@ -137,7 +137,7 @@ hi! link TabLineFill     StatusLineNC
 hi! link VimHiGroup      VimGroup
 
 " For vim-gitgutter, don't use background colors.
-highlight SignColumn guibg=Black ctermbg=Black
+highlight SignColumn guibg=16 ctermbg=16
 
 " For Lsp diagnostic colors.
 " hi! link LspReferenceText DraculaSelection
@@ -153,4 +153,4 @@ hi! link LspDiagnosticsDefaultWarning WarningMsg
 " hi! link LspDiagnosticsUnderlineWarning DraculaWarnLine
 
 " Vim command prompt.
-hi! MsgArea guibg=Black ctermfg=176
+hi! MsgArea guibg=16 ctermfg=176
