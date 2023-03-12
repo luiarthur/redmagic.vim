@@ -28,7 +28,7 @@ function! ExecHi(...) " att, ctermfg, ctermbg, term, cterm
   let numArgs = a:0
   let att = a:1
   let fg = "NONE"
-  let bg = 16
+  let bg = 0
   let mterm = "NONE"
   let mcterm = "NONE"
 
@@ -93,7 +93,7 @@ call ExecHi("Function",DarkOrange3,NONE)
 call ExecHi("Identifier",Red3,NONE)
 call ExecHi("IncSearch",DarkRed,DarkOrange3,NONE,bold)
 call ExecHi("NonText",DarkGrey,NONE)
-call ExecHi("Normal",LightGrey,NONE)
+call ExecHi("Normal",LightGrey,Black)
 call ExecHi("Number",Red1,NONE)
 call ExecHi("Operator",DarkGrey,NONE)
 call ExecHi("PreProc",DarkOrange3,NONE,NONE,bold)
