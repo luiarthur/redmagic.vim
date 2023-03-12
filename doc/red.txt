@@ -1,11 +1,18 @@
-*red*  Some predominantly red color schemes.
+*red*  A predominantly red color scheme.
 
-Two color schemes are provided: `red` and `noir`.
+ ____          _       _            ~
+|  _ \ ___  __| |_   _(_)_ __ ___   ~
+| |_) / _ \/ _` \ \ / / | '_ ` _ \  ~
+|  _ <  __/ (_| |\ V /| | | | | | | ~
+|_| \_\___|\__,_(_)_/ |_|_| |_| |_| ~
 
-To try out a color scheme, execute: `:colorscheme <name-of-colorscheme>`, in a
-VIM/NeoVIM session. For example: `:colorscheme noir`
+- Author: Arthur Lui
+- Date: 23 March 2022
+- Repo: https://github.com/luiarthur/red.vim
 
-To set the color scheme at startup, add the following to `~/.vim/vimrc` (VIM)
-or `~/.config/nvim/init.vim` (NeoVIM): `silent! colorscheme noir`
+To try out the color scheme, execute: `:colorscheme red` in a (Neo)VIM session.
 
-These colorschemes are ideal with a black background.
+To apply the color scheme at startup, add the following to `~/.vim/vimrc` (VIM)
+or `~/.config/nvim/init.vim` (NeoVIM): `silent! colorscheme red`
+
+The colorscheme looks best with a black background.
