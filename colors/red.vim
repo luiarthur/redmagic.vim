@@ -28,7 +28,7 @@ function! ExecHi(...) " att, ctermfg, ctermbg, term, cterm
   let numArgs = a:0
   let att = a:1
   let fg = "NONE"
-  let bg = "NONE"
+  let bg = 0
   let mterm = "NONE"
   let mcterm = "NONE"
 
