@@ -74,44 +74,44 @@ let bold          = "bold"
 
 
 call ExecHi("ColorColumn",NONE,DarkGrey)
-call ExecHi("Comment",HotPink1,NONE)
-call ExecHi("Conditional",DarkGrey,NONE)
-call ExecHi("Constant",Red1,NONE)
-call ExecHi("Cursor",DarkGrey,NONE)
-call ExecHi("CursorLine",NONE,NONE)
-call ExecHi("DiffAdd",DarkGrey,NONE)
+call ExecHi("Comment",HotPink1,Black)
+call ExecHi("Conditional",DarkGrey,Black)
+call ExecHi("Constant",Red1,Black)
+call ExecHi("Cursor",DarkGrey,Black)
+call ExecHi("CursorLine",NONE,Black)
+call ExecHi("DiffAdd",DarkGrey,Black)
 call ExecHi("DiffChange",NONE,DeepPink4)
 call ExecHi("DiffDelete",LightGrey,Green)
 call ExecHi("DiffText",LightGrey,Grey)
 call ExecHi("Directory",Grey,Black)
 call ExecHi("Error",White,Red1,NONE,bold)
-call ExecHi("ErrorMsg",Green,NONE)
-call ExecHi("FoldColumn",DarkGrey,NONE)
-call ExecHi("Folded",DarkGrey,NONE)
+call ExecHi("ErrorMsg",Green,Black)
+call ExecHi("FoldColumn",DarkGrey,Black)
+call ExecHi("Folded",DarkGrey,Black)
 "call ExecHi("Function",Red3,NONE)
-call ExecHi("Function",DarkOrange3,NONE)
-call ExecHi("Identifier",Red3,NONE)
-call ExecHi("IncSearch",DarkRed,DarkOrange3,NONE,bold)
-call ExecHi("NonText",DarkGrey,NONE)
+call ExecHi("Function",DarkOrange3,Black)
+call ExecHi("Identifier",Red3,Black)
+call ExecHi("IncSearch",DarkRed,DarkOrange3,Black,bold)
+call ExecHi("NonText",DarkGrey,Black)
 call ExecHi("Normal",LightGrey,Black)
-call ExecHi("Number",Red1,NONE)
-call ExecHi("Operator",DarkGrey,NONE)
-call ExecHi("PreProc",DarkOrange3,NONE,NONE,bold)
-call ExecHi("Repeat",DarkGrey,NONE)
+call ExecHi("Number",Red1,Black)
+call ExecHi("Operator",DarkGrey,Black)
+call ExecHi("PreProc",DarkOrange3,Black,NONE,bold)
+call ExecHi("Repeat",DarkGrey,Black)
 call ExecHi("Search",DarkRed,LightGrey,NONE,bold)
-call ExecHi("Special",HotPink3,NONE,NONE,bold)
-call ExecHi("SpecialKey",DarkGrey,NONE)
-call ExecHi("Statement",DarkGrey,NONE,NONE,bold)
-call ExecHi("StatusLine",DarkGrey,NONE)
-call ExecHi("String",Red3,NONE)
-call ExecHi("TabLineSel",LightGrey,NONE)
-call ExecHi("Title",DarkOrange3,NONE)
+call ExecHi("Special",HotPink3,Black,NONE,bold)
+call ExecHi("SpecialKey",DarkGrey,Black)
+call ExecHi("Statement",DarkGrey,Black,NONE,bold)
+call ExecHi("StatusLine",DarkGrey,Black)
+call ExecHi("String",Red3,Black)
+call ExecHi("TabLineSel",LightGrey,Black)
+call ExecHi("Title",DarkOrange3,Black)
 call ExecHi("Todo",Black,Green)
-call ExecHi("Type",White,NONE,NONE,bold)
-call ExecHi("VertSplit",DarkGrey,NONE)
+call ExecHi("Type",White,Black,NONE,bold)
+call ExecHi("VertSplit",DarkGrey,Black)
 call ExecHi("Visual",Black,LightGrey)
-call ExecHi("WarningMsg",DarkGrey,NONE)
-call ExecHi("LineNr",LineNr,NONE,NONE,NONE)
+call ExecHi("WarningMsg",DarkGrey,Black)
+call ExecHi("LineNr",LineNr,Black,NONE,NONE)
 call ExecHi("CursorLineNr",Black,DarkDarkGrey)
 
 call ExecHi("Pmenu",LightGrey,DarkDarkGrey)
@@ -123,7 +123,7 @@ call ExecHi("PmenuThumb",Black,Green)
 call ExecHi("SpellBad",White,Red3,NONE,bold)
 call ExecHi("SpellCap",DarkRed,LightBlue,NONE,bold)
 
-hi Underlined term=underline cterm=underline ctermfg=NONE ctermbg=NONE
+hi Underlined term=underline cterm=underline ctermfg=NONE ctermbg=Black
 
 hi! link diffAdded       DiffAdd
 hi! link diffRemoved     DiffDelete
@@ -137,7 +137,7 @@ hi! link TabLineFill     StatusLineNC
 hi! link VimHiGroup      VimGroup
 
 " For vim-gitgutter, don't use background colors.
-highlight SignColumn guibg=NONE ctermbg=NONE
+highlight SignColumn guibg=Black ctermbg=Black
 
 " For Lsp diagnostic colors.
 " hi! link LspReferenceText DraculaSelection
@@ -153,4 +153,4 @@ hi! link LspDiagnosticsDefaultWarning WarningMsg
 " hi! link LspDiagnosticsUnderlineWarning DraculaWarnLine
 
 " Vim command prompt.
-hi! MsgArea guibg=NONE ctermfg=176
+hi! MsgArea guibg=Black ctermfg=176
