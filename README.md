@@ -1,17 +1,10 @@
-```
- ____          _       _
-|  _ \ ___  __| |_   _(_)_ __ ___
-| |_) / _ \/ _` \ \ / / | '_ ` _ \
-|  _ <  __/ (_| |\ V /| | | | | | |
-|_| \_\___|\__,_(_)_/ |_|_| |_| |_|
+# Red.vim
 
-```
+Mostly-red vim color schemes.
 
-A mostly-red vim color scheme.
-
-# Installing the color scheme
-You can install `red.vim` by either copying `colors/red.vim` into
-`~/.vim/colors` (if using vim) or `~/.config/nvim/colors` (if using neovim). If
+# Installing the Color Scheme
+You can install the color schemes by either copying `colors/*.vim` into
+`~/.vim/colors` (if using vim) or `~/.config/nvim/colors` (if using NeoVIM). If
 using the [vim-plug](https://github.com/junegunn/vim-plug) plugin manager, add
 the lines
 ```
@@ -20,8 +13,16 @@ Plug 'luiarthur/red.vim'
 call plug#end()
 ```
 to either `~/.vim/vimrc` (if using vim) or `~/.config/nvim/init.vim` (if using
-neovim), then in a (neo)vim session, invoke `:PlugInstall`.
+NeoVIM), then in a (Neo)VIM session, invoke `:PlugInstall`.
 
-To activate the color scheme, add the line `silent! colorscheme red` in your
-`~/.vim/vimrc` or `~/.config/nvim/init.vim`. Alternatively, you can set the
-color scheme in your (neo)vim session by typing `:colorscheme red`.
+To activate the color scheme, add the line `silent! colorscheme red` or
+`silent! colorscheme noir` in your `~/.vim/vimrc` or `~/.config/nvim/init.vim`.
+Alternatively, you can set the color scheme in your (Neo)VIM session by typing
+`:colorscheme red` or `:colorscheme noir`.
+
+If using Windows, the equivalent paths for VIM users is `~/vimfiles/vimrc` and
+`~/vimfiles/colors`. Not sure what it is for NeoVIM users....
+
+Available Color Schemes:
+- `red`
+- `noir`
