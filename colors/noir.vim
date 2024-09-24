@@ -97,6 +97,7 @@ hi! link diffAdded       Group5
 hi! link diffCommon      Group5
 hi! link Include         Group5
 hi! link Label           Group5
+hi! link MatchParen      Group5
 hi! link Operator        Group5
 hi! link PreCondit       Group5
 hi! link PreProc         Group5
@@ -116,7 +117,6 @@ hi! link SpellLocal      Group6
 
 hi! link Cursor          Group7
 hi! link CursorColumn    Group7
-hi! link MatchParen      Group7
 
 hi! link ColorColumn     Group8
 hi! link PmenuSbar       Group8
